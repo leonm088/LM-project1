@@ -119,6 +119,35 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &35401992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e01c6f946b182364c8abefdf4c7fe94e, type: 3}
+  m_PrefabInstance: {fileID: 324505031}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &35401996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35401992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68dd51c712d4a264baf1c28abf5aac99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::helloworldDebug
+--- !u!114 &35401997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35401992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a3928abba5d4745b6050c786f54c5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpacebarToDestroy
 --- !u!1001 &170067088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -178,7 +207,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f593901f164cebe4894f85d08cf779d5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1444572070}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f593901f164cebe4894f85d08cf779d5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1444572069}
   m_SourcePrefab: {fileID: 100100000, guid: f593901f164cebe4894f85d08cf779d5, type: 3}
 --- !u!1001 &282560702
 PrefabInstance:
@@ -239,7 +274,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a4188aea55d08774791c47d0d9457b24, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1920549884}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a4188aea55d08774791c47d0d9457b24, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1920549883}
   m_SourcePrefab: {fileID: 100100000, guid: a4188aea55d08774791c47d0d9457b24, type: 3}
 --- !u!1001 &324505031
 PrefabInstance:
@@ -300,7 +341,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e01c6f946b182364c8abefdf4c7fe94e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 35401997}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e01c6f946b182364c8abefdf4c7fe94e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 35401996}
   m_SourcePrefab: {fileID: 100100000, guid: e01c6f946b182364c8abefdf4c7fe94e, type: 3}
 --- !u!1 &330585543
 GameObject:
@@ -388,13 +435,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: -0, y: 0.9989288, z: -0, w: 0.046273995}
+  m_LocalPosition: {x: 0.0472, y: 0.3437, z: 1.6926}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 174.696, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -683,6 +730,35 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41b59ed9f25cf664f82abed86b0e993e, type: 3}
+--- !u!1 &962261804 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cd270fce6775fb345a6fda85fb7e9eb0, type: 3}
+  m_PrefabInstance: {fileID: 1519783668}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &962261805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962261804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a3928abba5d4745b6050c786f54c5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpacebarToDestroy
+--- !u!114 &962261809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962261804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68dd51c712d4a264baf1c28abf5aac99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::helloworldDebug
 --- !u!1001 &1098845243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -866,6 +942,35 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13bc39e77975fd84fb937624fb6e432d, type: 3}
+--- !u!1 &1444572065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f593901f164cebe4894f85d08cf779d5, type: 3}
+  m_PrefabInstance: {fileID: 170067088}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1444572069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444572065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68dd51c712d4a264baf1c28abf5aac99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::helloworldDebug
+--- !u!114 &1444572070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444572065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a3928abba5d4745b6050c786f54c5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpacebarToDestroy
 --- !u!1001 &1519783668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -925,7 +1030,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cd270fce6775fb345a6fda85fb7e9eb0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 962261805}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cd270fce6775fb345a6fda85fb7e9eb0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 962261809}
   m_SourcePrefab: {fileID: 100100000, guid: cd270fce6775fb345a6fda85fb7e9eb0, type: 3}
 --- !u!1001 &1651576108
 PrefabInstance:
@@ -988,6 +1099,35 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 837d00cb776713b4cba5de554cc071ba, type: 3}
+--- !u!1 &1920549879 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a4188aea55d08774791c47d0d9457b24, type: 3}
+  m_PrefabInstance: {fileID: 282560702}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1920549883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920549879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68dd51c712d4a264baf1c28abf5aac99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::helloworldDebug
+--- !u!114 &1920549884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920549879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a3928abba5d4745b6050c786f54c5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpacebarToDestroy
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
