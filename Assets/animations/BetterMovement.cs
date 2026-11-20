@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BetterMovement : MonoBehaviour
 {
-    public float mySpeed = 10;// Start is called once before the first execution of Update after the MonoBehaviour is created
+    public float mySpeed =  5;// Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
        
@@ -19,7 +19,7 @@ public class BetterMovement : MonoBehaviour
          if(Input.GetKey(KeyCode.W))
         {
             transform.Translate(transform.forward*mySpeed*Time.deltaTime, Space.World);//old way of moving - moves 1 unit per frame
-            Debug.Log("A is pressed and the position is " + transform.position);
+            Debug.Log("W is pressed and the position is " + transform.position);
         }
        
         if(Input.GetKey(KeyCode.S))
